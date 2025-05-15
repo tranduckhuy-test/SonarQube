@@ -48,7 +48,7 @@ This script will:
 Start all services:
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 5. Access SonarQube
@@ -74,8 +74,8 @@ To update to a newer SonarQube version:
 1. Edit the `docker-compose.yaml` file and update the SonarQube image tag
 2. Run:
    ```
-   docker-compose down
-   docker-compose up -d
+   docker compose down
+   docker compose up -d
    ```
 
 ## Troubleshooting
@@ -85,7 +85,7 @@ To update to a newer SonarQube version:
 If you encounter problems with the certificates, you can check the Certbot logs:
 
 ```
-docker-compose logs certbot
+docker compose logs certbot
 ```
 
 ### SonarQube Won't Start
@@ -93,7 +93,7 @@ docker-compose logs certbot
 Check SonarQube logs for errors:
 
 ```
-docker-compose logs sonarqube
+docker compose logs sonarqube
 ```
 
 Common issues include:

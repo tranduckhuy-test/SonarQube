@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Replace these variables with your domain and email
 domains=(tranduchuy.me)
-email="huytde.dev@gmail.com" # Adding a valid email is recommended for renewal and security notices
+email="huytde.dev@gmail.com"
 
 # Don't modify below this line unless you know what you're doing
 rsa_key_size=4096
